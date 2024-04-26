@@ -1,0 +1,12 @@
+#first{
+	background-color: green;
+	height: 100px;
+	width: 100px;
+	margin: 5px
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 100px;
+	color: pink;
+	font-width: 800;	
+}
