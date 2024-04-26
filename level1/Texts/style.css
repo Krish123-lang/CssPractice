@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+
+.font{
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+/* text align */
+
+p#center{ text-align: center; }
+p#left{ text-align: left; }
+p#right{ text-align: right; }
+p#justify{ text-align: justify; }
+
+/* Line Height */
+
+.lineHeight{ line-height: 5; }
