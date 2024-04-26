@@ -1,0 +1,20 @@
+body{
+	/* background-color: red; */
+}
+h1{
+	background-color: green;
+	color: pink
+}
+div#box{
+	background:blue;
+}
+button.btn{
+	background-color: skyblue;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	color: green;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+}
