@@ -1,0 +1,11 @@
+div{
+	/*display: none;*/ /* contents hidden */
+	/*display: inline;*/ /* all contents in a single line, does'nt allows to add width & height */
+	/*display: block;*/ /* all contents in a different line */
+	display:inline-block; /* all contents in a single line, allows to add width & height */
+}
+
+.visibility{
+	visibility: hidden; /* content gets hidden */
+	visibility: visible; /* content is shown (default) */
+}
