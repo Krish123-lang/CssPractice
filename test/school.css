@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 2px solid rgb(194, 59, 228);
+    border-bottom: 2px solid rgb(194, 59, 228);
+}
+
+ul li {
+    list-style-type: square;
+}
+
+section {
+    margin: 10px;
+    padding: 20px;
+}
+
+section.left {
+    max-width: 700px;
+}
+
+h3 {
+    font-size: 25px;
+}

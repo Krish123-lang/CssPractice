@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Card</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f0f0f0;
+            }
+
+            .card {
+                border: 5px solid black;
+                border-radius: 20px;
+                overflow: hidden;
+                width: 400px;
+                background-color: #ffcccb;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+
+            .card-header {
+                background-color: red;
+                color: black;
+                padding: 10px;
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .card-body {
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .card-body img {
+                border-radius: 10px;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
+            .card-footer {
+                background-color: blue;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="card">
+            <div class="card-header">
+                Krishna Mandal
+            </div>
+            <div class="card-body">
+                <div class="info">
+                    <p>50 My Street</p>
+                    <p>The Town</p>
+                    <p>Gray diveach</p>
+                    <p>UK</p>
+                    <p>z050 1MU</p>
+                    <p>Tel: 01234 567 890</p>
+                    <p>Mail: krisha.helloworld@gmail.com</p>
+                </div>
+                <img src="https://via.placeholder.com/100" alt="Profile Picture">
+            </div>
+            <div class="card-footer">
+                Editing, writing and web development services
+            </div>
+        </div>
+    </body>
+
+</html>
